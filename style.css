@@ -1,0 +1,83 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: hsl(47, 88%, 63%);
+}
+
+.container{
+    width: 300px;
+    background-color: hsl(0, 0%, 100%);
+    padding: 15px;
+    border-radius: 20px;
+    border-right: black solid 6px;
+    border-bottom: black solid 6px;
+}
+
+.container img {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.learning {
+    background-color: hsl(47, 88%, 63%);
+    width: 25%;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 800;
+    padding: 2px;
+    border-radius: 2px;
+    margin-bottom: 15px;
+}
+
+.pub {
+    font-size: 15px;
+    font-weight: 500;
+    margin-bottom: 15px;
+}
+
+h2 {
+    font-weight: bold;
+    font-size: 23px;
+    margin-bottom: 20px;
+}
+
+h2:hover {
+    color: hsl(47, 88%, 63%);
+    cursor: pointer;
+}
+
+.about {
+    font-size: 16px;
+    color: hsl(0, 0%, 42%);
+    margin-bottom: 20px;
+}
+
+.lst_section {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.lst_section img {
+    width: 40px;
+    margin-bottom: 0;
+    margin-right: 12px;
+}
+
+.lst_section h3{
+    font-size: 16px;
+}
+
+@media (max-width : 352px) {
+    .container {
+        width: 250px;
+    }
+}
